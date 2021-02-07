@@ -19,14 +19,14 @@ display() {
 
     var title = createElement('h1');
     title.html("Car-Racer");
-    title.position(490,100);
+    title.position(470,100);
  
     
     var input = this.input;
-    input.position(475,350);
+    input.position(455,350);
     
     var button = this.button;
-    button.position(510,500)
+    button.position(490,500)
     
     var greet = this.greeting;
 
@@ -41,7 +41,7 @@ display() {
         player.updateCount(plCount);
         
         greet.html("Hello " + player.name);
-        greet.position(615,400);
+        greet.position(435,400);
 
 
     });
